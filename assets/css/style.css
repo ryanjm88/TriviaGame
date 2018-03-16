@@ -1,0 +1,64 @@
+.jumbotron  {
+    border-radius: 0px;
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background: rgba(200, 54, 54, 0.0);
+}
+
+#jumbo-image    {
+    margin-top: 20px;
+}
+
+.options    {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+#start-div  {
+    margin-top: 40px;
+    text-align: justify;
+}
+
+#game-div   {
+    margin-top: 40px;
+}
+
+#done-div   {
+    margin-top: 40px;
+}
+
+#end-results    {
+    text-align: center;
+}
+
+.card   {
+    opacity: 0.95;
+}
+
+.card-header    {
+    background-color: #000066;
+    color: #ffd11a;
+    text-shadow: 2px 5px black;
+    opacity: 0.9;
+}
+
+#thumbs {
+    border-radius: 5px;
+}
+
+.img-thumbnail  {
+    background-color: #ffd11a;
+    border-color: #000066
+}
+
+.card-footer    {
+    background-color: lightgrey;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    bottom: 0;
+    width: 100%;
+}
