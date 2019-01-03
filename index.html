@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,125 +8,141 @@
     <title>"Hey Arnold!" Trivia</title>
     <link rel="icon" href="assets/images/favicon.jpg">
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body background="assets/images/background2.png">
-<div class="jumbotron">
-    <img src="assets/images/jumbo-bg.jpg" id="jumbo-image" class="img-thumbnail">
-</div>
+    <div class="jumbotron">
+        <img src="assets/images/jumbo-bg.jpg" id="jumbo-image" class="img-thumbnail">
+    </div>
     <div class="container">
         <br>
-    <div class="row" id="start-div">
-    <div class="col-md-12">
-        <div class="card">
-            <h1 class="card-header">"Hey Arnold!" Trivia</h1>
-            <div class="card-body">
-                <h4 class="card-body">How well do you know the late '90s-early 2000s Nickelodeon hit show?</h4>
-                <h4 class="card-body">Play this game to find out!</h4>
-                <h4 class="card-body">You'll be given 100 seconds to answer eight questions. (Some of them aren't easy!)
-                    Any unanswered questions will be counted as incorrect. Let's see how well you know the Football Head!</h4>
-                <center><button type="button" class="btn btn-success" id="start-button">Here we go, here we go!</button></center>
+        <div class="row" id="start-div">
+            <div class="col-md-12">
+                <div class="card">
+                    <h1 class="card-header">"Hey Arnold!" Trivia</h1>
+                    <div class="card-body">
+                        <h4 class="card-body">How well do you know the late '90s-early 2000s Nickelodeon hit show?</h4>
+                        <h4 class="card-body">Play this game to find out!</h4>
+                        <h4 class="card-body">You'll be given 100 seconds to answer eight questions. (Some of them
+                            aren't easy!)
+                            Any unanswered questions will be counted as incorrect. Let's see how well you know the
+                            Football Head!</h4>
+                        <center><button type="button" class="btn btn-success" id="start-button">Here we go, here we go!</button></center>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    </div>
 
-    <div class="row" id="game-div">
-        <div class="col-md-12">
-            <div class="card">
-                <h2 class="card-header">Move it, Football Head!<br><br>
-                Time remaining: <span id="timer">100</span> seconds</h2>
-                <div class="card-body">
-                    <h4>1. Arnold lives in a boarding house run by his grandparents with a quirky array of residents.
-                        What is the name of the boarding house that Arnold's grandparents operate?</h4>
+        <div class="row" id="game-div">
+            <div class="col-md-12">
+                <div class="card">
+                    <h2 class="card-header">Move it, Football Head!<br><br>
+                        Time remaining: <span id="timer">100</span> seconds</h2>
+                    <div class="card-body">
+                        <h4>1. Arnold lives in a boarding house run by his grandparents with a quirky array of
+                            residents.
+                            What is the name of the boarding house that Arnold's grandparents operate?</h4>
                         <input type="radio" name="question1" class="options" value="Hillwood Estate">Hillwood Estate<br>
                         <input type="radio" name="question1" class="options" value="Sunset Arms">Sunset Arms<br>
                         <input type="radio" name="question1" class="options" value="Elk Island Arms">Elk Island Arms<br>
                         <input type="radio" name="question1" class="options" value="Sunset Estate">Sunset Estate<br>
                         <br>
                         <br>
-                    <h4>2. Helga lives in the shadow of her seemingly perfect older sister and is often compared to her by their parents.
-                        What is Helga's older sister's name?</h4>
+                        <h4>2. Helga lives in the shadow of her seemingly perfect older sister and is often compared to
+                            her by their parents.
+                            What is Helga's older sister's name?</h4>
                         <input type="radio" name="question2" class="options" value="Olivia">Olivia<br>
                         <input type="radio" name="question2" class="options" value="Rhonda">Rhonda<br>
                         <input type="radio" name="question2" class="options" value="Lila">Lila<br>
                         <input type="radio" name="question2" class="options" value="Olga">Olga<br>
                         <br>
                         <br>
-                    <h4>3. Years ago when he was an infant, Arnold's parents disappeared on a jungle expedition.
-                        What was the name of the country they journeyed to?</h4>
+                        <h4>3. Years ago when he was an infant, Arnold's parents disappeared on a jungle expedition.
+                            What was the name of the country they journeyed to?</h4>
                         <input type="radio" name="question3" class="options" value="San Pedro">San Pedro<br>
                         <input type="radio" name="question3" class="options" value="Manuel Antonio">Manuel Antonio<br>
                         <input type="radio" name="question3" class="options" value="San Lorenzo">San Lorenzo<br>
                         <input type="radio" name="question3" class="options" value="Puerto Pobre">Puerto Pobre<br>
                         <br>
                         <br>
-                    <h4>4. After receiving detention from a school staff member, Sid attempts to get even by making a voodoo doll out of soap.
-                        Who does Sid make a voodoo doll of?</h4>
+                        <h4>4. After receiving detention from a school staff member, Sid attempts to get even by making
+                            a voodoo doll out of soap.
+                            Who does Sid make a voodoo doll of?</h4>
                         <input type="radio" name="question4" class="options" value="Principal Wartz">Principal Wartz<br>
                         <input type="radio" name="question4" class="options" value="Mister Simmons">Mister Simmons<br>
                         <input type="radio" name="question4" class="options" value="Miss Felter">Miss Felter<br>
                         <input type="radio" name="question4" class="options" value="Miss Slovak">Miss Slovak<br>
                         <br>
                         <br>
-                    <h4>5. Arnold's school is often plagued with mishaps, such as flooding and teacher strikes.
-                        What is the name of Arnold's school?</h4>
+                        <h4>5. Arnold's school is often plagued with mishaps, such as flooding and teacher strikes.
+                            What is the name of Arnold's school?</h4>
                         <input type="radio" name="question5" class="options" value="PS 118">P.S. 118<br>
-                        <input type="radio" name="question5" class="options" value="Hillwood Elementary School">Hillwood Elementary School<br>
-                        <input type="radio" name="question5" class="options" value="Woodrow Wilson Elementary School">Woodrow Wilson Elementary School<br>
+                        <input type="radio" name="question5" class="options" value="Hillwood Elementary School">Hillwood
+                        Elementary School<br>
+                        <input type="radio" name="question5" class="options" value="Woodrow Wilson Elementary School">Woodrow
+                        Wilson Elementary School<br>
                         <input type="radio" name="question5" class="options" value="PS 119">P.S. 119<br>
                         <br>
                         <br>
-                    <h4>6. Which character, who is later revealed by series creator Craig Bartlett to be gay, is often the victim of bullies and has a knack for musical theatre?</h4>
+                        <h4>6. Which character, who is later revealed by series creator Craig Bartlett to be gay, is
+                            often the victim of bullies and has a knack for musical theatre?</h4>
                         <input type="radio" name="question6" class="options" value="Harold">Harold<br>
                         <input type="radio" name="question6" class="options" value="Eugene">Eugene<br>
                         <input type="radio" name="question6" class="options" value="Gerald">Gerald<br>
                         <input type="radio" name="question6" class="options" value="Curly">Curly<br>
                         <br>
                         <br>
-                    <h4>7. Arnold's best friend, Gerald, has a mysterious source from whom he gets his information on local urban legands and neighborhood gossip.
-                        What is the name of Gerald's never-shown source?</h4>
+                        <h4>7. Arnold's best friend, Gerald, has a mysterious source from whom he gets his information
+                            on local urban legands and neighborhood gossip.
+                            What is the name of Gerald's never-shown source?</h4>
                         <input type="radio" name="question7" class="options" value="Fuzzy Slippers">Fuzzy Slippers<br>
                         <input type="radio" name="question7" class="options" value="Pookie">Pookie<br>
                         <input type="radio" name="question7" class="options" value="Frankie G">Frankie G<br>
                         <input type="radio" name="question7" class="options" value="Brainy">Brainy<br>
                         <br>
                         <br>
-                    <h4>8. In a feature episode, Helga visits a therapist in an effort to get to the root of her aggressive behavior.
-                        What deep secret does Helga reveal to her therapist, Dr. Bliss?</h4>
-                        <input type="radio" name="question8" class="options" value="hate sister">That she hates her sister<br>
+                        <h4>8. In a feature episode, Helga visits a therapist in an effort to get to the root of her
+                            aggressive behavior.
+                            What deep secret does Helga reveal to her therapist, Dr. Bliss?</h4>
+                        <input type="radio" name="question8" class="options" value="hate sister">That she hates her
+                        sister<br>
                         <input type="radio" name="question8" class="options" value="love Arnold">That she loves Arnold<br>
-                        <input type="radio" name="question8" class="options" value="ice cream">That she eats ice cream when her family is asleep<br>
-                        <input type="radio" name="question8" class="options" value="mom alcoholic">That her mom is an alcoholic<br>
+                        <input type="radio" name="question8" class="options" value="ice cream">That she eats ice cream
+                        when her family is asleep<br>
+                        <input type="radio" name="question8" class="options" value="mom alcoholic">That her mom is an
+                        alcoholic<br>
                         <br>
                         <br>
-                    <center><button type="button" class="btn btn-danger" id="finish-button">Done!</button></center>
+                        <center><button type="button" class="btn btn-danger" id="finish-button">Done!</button></center>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="done-div">
+            <div class="col-md-12">
+                <div class="card">
+                    <h2 class="card-header">All done! Here's how you did.</h2>
+                    <div class="card-body" id="end-results">
+                        <h4>Correct Answers: <span id="right-answers">0</span></h4>
+                        <br>
+                        <h4>Incorrect Answers: <span id="wrong-answers">0</span></h4>
+                        <br>
+                        <img src="assets/images/arnold-gerald.gif" class="img-thumbnail" id="thumbs">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class="row" id="done-div">
-        <div class="col-md-12">
-            <div class="card">
-                <h2 class="card-header">All done! Here's how you did.</h2>
-                <div class="card-body" id="end-results">
-                    <h4>Correct Answers: <span id="right-answers">0</span></h4>
-                    <br>
-                    <h4>Incorrect Answers: <span id="wrong-answers">0</span></h4>
-                    <br>
-                    <img src="assets/images/arnold-gerald.gif" class="img-thumbnail" id="thumbs">
-                </div>
-            </div>
-    </div>
-    </div>
-</div>
-<div class="card-footer">
+    <div class="card-footer">
         &copy; Ryan McKenzie 2018
-</div>
+    </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="assets/javascript/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
 </body>
+
 </html>
